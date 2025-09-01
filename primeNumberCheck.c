@@ -1,25 +1,26 @@
 #include <stdio.h>
+#include <stdbool.h>
+
 int main()
 {
-    int x;
+    int n;
     printf("Enter the number = ");
-    scanf("%d", &x);
-    if (x == 1)
-        printf("Nither prime Nor composite");
-    else
+    scanf("%d", &n);
+    bool flag = true;
+    if (n == 1)
+        printf("%d is nither prime nor composite", n);
+    if (n == 2)
+        printf("prime number");
+    for (int i = 2; i <= n; i++)
     {
-        for (int i = 2; i <= x; i++)
-        {
-            if (x % i == 0 && x != 2)
-            {
-                printf("Composite number");
-                break;
-            }
-
-            else
-                printf("prime number");
-            break;
-        }
+        if (n % i == 0)
+            flag = true;
+        break;
     }
+    if (flag == false)
+        printf("Prime number");
+    else
+        printf("composit number");
+
     return 0;
 }
