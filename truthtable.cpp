@@ -13,6 +13,7 @@ void xnor_operation(int x, int y)
         }
     }
     cout << "\n\n=============================\n\n";
+    return;
 }
 void xor_operation(int x, int y)
 {
@@ -27,6 +28,7 @@ void xor_operation(int x, int y)
         }
     }
     cout << "\n\n=============================\n\n";
+    return;
 }
 void nor_operation(int x, int y)
 {
@@ -41,6 +43,7 @@ void nor_operation(int x, int y)
         }
     }
     cout << "\n\n=============================\n\n";
+    return;
 }
 void nand_operation(int x, int y)
 {
@@ -55,6 +58,7 @@ void nand_operation(int x, int y)
         }
     }
     cout << "\n\n=============================\n\n";
+    return;
 }
 void or_operation(int x, int y)
 {
@@ -69,6 +73,7 @@ void or_operation(int x, int y)
         }
     }
     cout << "\n\n=============================\n\n";
+    return;
 }
 void and_operation(int x, int y)
 {
@@ -83,6 +88,7 @@ void and_operation(int x, int y)
         }
     }
     cout << "\n\n=============================\n\n";
+    return;
 }
 void not_operation(int x, int y)
 {
@@ -92,6 +98,7 @@ void not_operation(int x, int y)
     cout << x << " | " << (!x) << endl;
     cout << y << " | " << (!y);
     cout << "\n\n=============================\n\n";
+    return;
 }
 int main()
 {
