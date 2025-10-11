@@ -43,7 +43,7 @@ int main()
         switch (dishes)
         {
         case 7:
-            cout << "REQUIRMENTS FOR MAKING 7-DISHES:\n";
+            cout << "REQUIRMENTS OF "<<no_plates<<" PLATES (TRAMI) FOR MAKING 7-DISHES:\n";
             cout << "MEAT = " << 3 * no_plates << "kg\n";
             cout << "NO. OF CHICKEN = " << 1 * no_plates << "--""TOTAL-WEIGHT = "<< 1.5 * no_plates << "kg\n";
             cout << "FENNEL-SEED(sabut-baidaan) = " << 15 * no_plates << "gm\n";
@@ -114,11 +114,9 @@ int main()
             cout << "--------------------------------------------------------\n";
             break;
         case 10:
-            cout << "REQUIRMENTS FOR MAKING 10-DISHES:\n";
+            cout << "REQUIRMENTS OF "<<no_plates<<" PLATES (TRAMI) FOR MAKING 10-DISHES:\n";
             cout << "MEAT = " << 4 * no_plates << "kg\n";
-            cout << "NO. OF CHICKEN = " << 1 * no_plates << "--"
-                                                            "TOTAL-WEIGHT = "
-                 << 1.5 * no_plates << "kg\n";
+            cout << "NO. OF CHICKEN = " << 1 * no_plates << "--""TOTAL-WEIGHT = "<< 1.5 * no_plates << "kg\n";
             cout << "FENNEL-SEED(sabut-baidaan) = " << 20 * no_plates << "gm\n";
             cout << "FENNEL-POWDER(baidaan-powder) = " << 20 * no_plates << "gm\n";
             cout << "CINNAMON(dalchini) = " << 20 * no_plates << "gm\n";
@@ -187,11 +185,9 @@ int main()
             cout << "--------------------------------------------------------\n";
             break;
         case 15:
-            cout << "REQUIRMENTS FOR MAKING 15-DISHES:\n";
+            cout << "REQUIRMENTS OF "<<no_plates<<" PLATES (TRAMI) FOR MAKING 15-DISHES:\n";
             cout << "MEAT = " << 4.5 * no_plates << "kg\n";
-            cout << "NO. OF CHICKEN = " << 2 * no_plates << "--"
-                                                            "TOTAL-WEIGHT = "
-                 << 3 * no_plates << "kg\n";
+            cout << "NO. OF CHICKEN = " << 2 * no_plates << "--""TOTAL-WEIGHT = "<< 3 * no_plates << "kg\n";
             cout << "FENNEL-SEED(sabut-baidaan) = " << 30 * no_plates << "gm\n";
             cout << "FENNEL-POWDER(baidaan-powder) = " << 30 * no_plates << "gm\n";
             cout << "CINNAMON(dalchini) = " << 30 * no_plates << "gm\n";
